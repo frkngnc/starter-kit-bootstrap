@@ -1,0 +1,110 @@
+.header{
+     width:100%;
+     position:absolute;
+     z-index:99;
+     height:100px;
+     
+}
+.navbar{
+     padding:0 !important;
+}
+
+.navbar-collapse{
+     background:#18538d;
+     min-height:100px;
+     padding-right:16%;
+     .nav-link{
+          color:#fff !important;
+          font-weight:800;
+          font-size:14px;
+     }
+     .nav-item{
+          padding-left:15px;
+          padding-right:15px;
+     }
+     .lng{
+          padding-right:0;
+          padding-left:0px;
+     }
+   }
+
+.logo{
+     padding:0 8%;
+     max-width:100%;
+     @media screen and (max-width: 480px) {
+          padding:3% 5%;
+        }
+}
+.m-menu{
+     @media screen and (max-width: 480px) {
+          padding:3% 5%;
+          background:#18538d;
+         
+          }
+        }
+     
+.dropdown-submenu {
+     position: relative;
+   
+     > {
+       a:after {
+         content: "\f0da";
+         float: right;
+         border: none;
+         font-family: 'FontAwesome';
+       }
+   
+       .dropdown-menu {
+         top: 0;
+         left: 100%;
+         margin-top: 0px;
+         margin-left: 0px;
+       }
+     }
+   }
+.dropdown-menu{
+     border-radius:0;
+     margin-top:30px;
+     .dropdown-item{
+          font-size:13px;
+          color:#18538d;
+          font-weight:800;
+          margin:8px 0;
+          &:hover{
+            background-color:#eeeeee !important;   
+          }
+     }
+}
+
+
+.header-page{
+     
+     .navbar-collapse{
+          background:#fff;
+          min-height:100px;
+          padding:0;
+     
+          
+          .nav-link{
+               color:#18538d !important;
+               font-weight:800;
+               font-size:14px;
+          }
+          .nav-item{
+               padding-left:5px;
+               padding-right:5px;
+               
+          }
+          .lng{
+               padding-right:0;
+               padding-left:0px;
+               :last-child{
+                    padding-right:0;
+               }
+          }
+        }
+        .logo{
+             padding:0;
+             
+        }
+}
