@@ -60,7 +60,7 @@ function css() {
 // Import JS files
 let jsFiles = [
   './src/libs/js/jquery.min.js',
-  './src/libs/bootstrap/js/bootstrap.min.js',
+  './src/libs/bootstrap/js/bootstrap.bundle.min.js',
   './src/js/script.js', // always last
 ];
 function js() {
@@ -88,7 +88,7 @@ function watch() {
   gulp.watch('./src/pug/**/*.pug', html);
   gulp.watch('./src/fonts/**/*', fonts);
   gulp.watch('./src/img/**/*', img);
-  gulp.watch('./src/sass/*.scss', css);
+  gulp.watch('./src/sass/**/.scss', css);
   gulp.watch('./src/js/*.js', js);
   gulp.watch('dist/*.html').on('change', browserSync.reload);
 }
