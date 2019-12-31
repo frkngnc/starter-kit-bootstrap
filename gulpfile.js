@@ -88,7 +88,7 @@ function watch() {
   gulp.watch('./src/pug/**/*.pug', html);
   gulp.watch('./src/fonts/**/*', fonts);
   gulp.watch('./src/img/**/*', img);
-  gulp.watch('./src/sass/**/.scss', css);
+  gulp.watch('./src/sass/**/*.scss', css);
   gulp.watch('./src/js/*.js', js);
   gulp.watch('dist/*.html').on('change', browserSync.reload);
 }
