@@ -1,10 +1,11 @@
 {
-  "name": "test",
+  "name": "MyPackage",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "global": "^4.4.0",
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
