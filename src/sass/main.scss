@@ -1,6 +1,6 @@
 // Main imports
 @import '_libs.scss';
-@import '_variables.scss';
-@import '_public.scss';
-@import 'partials/*';
+@import 'base/*';
+@import 'abstracts/*';
+@import 'layout/*';
 @import 'components/*';

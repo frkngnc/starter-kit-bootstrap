@@ -1,7 +1,9 @@
 {
-  "name": "MyPackage",
-  "version": "1.0.0",
-  "description": "",
+  "name" : "Front-end Starter Kit",
+  "email" : "info@furkangenc.com.tr",
+  "url" : "https://www.furkangenc.com.tr",
+  "version": "1.0.1",
+  "description": "Gulp + Pug + Sass",
   "main": "gulpfile.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
@@ -28,6 +30,6 @@
     "start": "gulp dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "Furkan Genc",
   "license": "ISC"
 }
