@@ -20,7 +20,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.1.0",
     "gulp-uglify": "^3.0.2",
-    "swiper": "^5.2.1"
+    "swiper": "^5.2.1",
+    "uikit": "^3.2.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

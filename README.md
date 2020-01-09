@@ -1,5 +1,5 @@
 
-# Gulp + Pug  + Sass + Bootstrap 4 Front-end Starter-Kit
+# Gulp + Pug + Sass Front-end Starter-Kit
 
 ## Usage
 
@@ -40,4 +40,6 @@ gulp build
 - gulp-concat
 - gulp-imagemin
 - gulp-glob
+- swiper
+- uikit
 
