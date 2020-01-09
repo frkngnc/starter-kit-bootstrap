@@ -61,6 +61,7 @@ function css() {
 let jsFiles = [
   './src/libs/js/jquery.min.js',
   './src/libs/bootstrap/js/bootstrap.bundle.min.js',
+  './node_modules/swiper/js/swiper.min.js',
   './src/js/script.js', // always last
 ];
 function js() {
