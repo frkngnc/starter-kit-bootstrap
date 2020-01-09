@@ -9,6 +9,7 @@ const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const sassGlob = require('gulp-sass-glob');
+const sourcemaps = require('gulp-sourcemaps');
 
 // Import img
 function img() {
@@ -41,20 +42,20 @@ function html() {
 }
 
 // Import CSS
+
 function css() {
   return gulp
     .src('./src/sass/*.scss')
+    .pipe(sourcemaps.init())
     .pipe(sassGlob())
-    .pipe(sass())
-    .pipe(
-      autoprefixer({
-        overrideBrowserslist: ['> 0.1%'],
-        cascade: false,
-      }),
-    )
-    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(autoprefixer({
+      overrideBrowserslist: ['> 0.1%'],
+      cascade: false,
+    }))
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./dist/css'))
-    .pipe(browserSync.stream());
+    .pipe(browserSync.stream())
 }
 
 // Import JS files

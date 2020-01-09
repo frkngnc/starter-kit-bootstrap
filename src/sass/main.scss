@@ -1,6 +1,9 @@
-// Main imports
-@import '_libs.scss';
-@import 'abstracts/*';
-@import 'base/*';
-@import 'layout/*';
-@import 'components/*';
+//Librarys
+@import '../libs/css/normalize';
+@import '../libs/bootstrap/scss/bootstrap';
+
+//Plugins
+@import '../../node_modules/swiper/css/swiper.min';
+
+
+
