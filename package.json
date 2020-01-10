@@ -1,13 +1,16 @@
 {
-  "name": "Front-end Starter Kit",
+  "version": "0.0.1",
+  "description": "Gulp+Pug+Sass",
+  "author": "Furkan Genc",
   "email": "info@furkangenc.com.tr",
   "url": "https://www.furkangenc.com.tr",
-  "version": "1.0.1",
-  "description": "Gulp + Pug + Sass",
   "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frkngnc/starter-kit-bs4.git"
+  },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "global": "^4.4.0",
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
@@ -23,14 +26,12 @@
     "gulp-sass-glob": "^1.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "swiper": "^5.2.1",
-    "uikit": "^3.2.6"
+    "swiper": "^5.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp dev"
   },
   "keywords": [],
-  "author": "Furkan Genc",
   "license": "ISC"
 }
