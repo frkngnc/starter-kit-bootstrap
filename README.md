@@ -1,5 +1,5 @@
 
-# Gulp + Pug + Sass Front-end Starter-Kit
+# Gulp + Pug + Sass Bootstrap 4 Starter-Kit
 
 ## Usage
 
