@@ -40,6 +40,7 @@ gulp build
 - gulp-concat
 - gulp-imagemin
 - gulp-glob
+- gulp-sourcemaps
 - swiper
 - uikit
 
