@@ -68,14 +68,16 @@ let jsFiles = [
 function js() {
   return gulp
     .src(jsFiles)
-    .pipe(concat('main.js'))
-    .pipe(
-      uglify({
-        toplevel: true,
-      }),
-    )
-    .pipe(gulp.dest('./dist/js'))
-    .pipe(browserSync.stream());
+      .pipe(sourcemaps.init())
+        .pipe(
+          uglify({
+            toplevel: true,
+          }),
+        )
+        .pipe(concat('main.js'))
+      .pipe(sourcemaps.write('.'))
+      .pipe(gulp.dest('./dist/js'))
+      .pipe(browserSync.stream());
 }
 
 // Live server
