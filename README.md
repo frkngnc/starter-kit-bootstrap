@@ -1,8 +1,6 @@
 
 # Gulp + Pug + Sass Bootstrap 4 Starter-Kit
 
-## Usage
-
 ### 1. Clone repo
 ```
 git clone https://github.com/frkngnc/starter-kit-bs4.git
