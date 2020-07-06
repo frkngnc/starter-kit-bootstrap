@@ -40,5 +40,5 @@ gulp build
 - gulp-glob
 - gulp-sourcemaps
 - swiper
-- uikit
+- bootstrap 4
 
