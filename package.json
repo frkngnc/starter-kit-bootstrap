@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Gulp+Pug+Sass",
   "author": "Furkan Genc",
   "email": "info@furkangenc.com.tr",
@@ -7,26 +7,27 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frkngnc/starter-kit-bs4.git"
+    "url": "https://github.com/frkngnc/starter-kit-bootstrap.git"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "node-sass": "^4.14.0"
+    "autoprefixer": "10.4.5",
+    "bootstrap": "^5.1.3",
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.5",
-    "del": "^5.1.0",
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.1.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sass-glob": "^1.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "swiper": "^6.5.1"
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

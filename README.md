@@ -1,14 +1,14 @@
 
-# Gulp + Pug + Sass Bootstrap 4 Starter-Kit
+# Gulp + Pug + Sass Bootstrap 5 Starter-Kit
 
 ### 1. Clone repo
 ```
-git clone https://github.com/frkngnc/starter-kit-bs4.git
+git clone https://github.com/frkngnc/starter-kit-bootstrap.git
 ```
 
 ### 2. Go inside cloned repo
 ```
-cd starter-kit-bs4
+cd starter-kit-bootstrap
 ```
 
 ### 3. Install all dependencies 
@@ -40,5 +40,5 @@ gulp build
 - gulp-glob
 - gulp-sourcemaps
 - swiper
-- bootstrap 4
+- bootstrap 5
 

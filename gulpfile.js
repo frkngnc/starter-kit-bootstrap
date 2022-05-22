@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const del = require('del');
-const sass = require('gulp-sass');
-const uglify = require('gulp-uglify');
+const sass = require('gulp-sass')(require('sass'));
+const uglify = require('gulp-uglify-es').default;
 const browserSync = require('browser-sync').create();
 const pug = require('gulp-pug');
 const imagemin = require('gulp-imagemin');
@@ -61,8 +61,7 @@ function css() {
 // Import JS files
 let jsFiles = [
   './src/libs/js/jquery.min.js',
-  './src/libs/bootstrap/js/bootstrap.bundle.min.js',
-  './node_modules/swiper/js/swiper.min.js',
+  './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
   './src/js/script.js', // always last
 ];
 function js() {
