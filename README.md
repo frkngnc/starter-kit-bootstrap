@@ -34,11 +34,10 @@ gulp build
 - gulp-sass
 - gulp-autoprefixer
 - gulp-clean-css
-- gulp-uglify
+- gulp-uglify-es
 - gulp-concat
 - gulp-imagemin
 - gulp-glob
 - gulp-sourcemaps
-- swiper
 - bootstrap 5
 
